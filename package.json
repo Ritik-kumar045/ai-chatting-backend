@@ -8,11 +8,11 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "nodemon --exec \"npm run start\" --ext ts --watch src",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "build": "tsc",
+  "start": "node dist/index.js",
+  "dev": "nodemon --exec ts-node src/index.ts",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "keywords": [],
   "author": "GetStream.io",
   "license": "ISC",
